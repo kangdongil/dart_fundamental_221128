@@ -14,3 +14,19 @@
 - [DartPad](https://dartpad.dev/)
 - `main` 함수는 반드시 필요하다
 - 코드가 끝나면 반드시 `;`를 넣어준다
+- 변수 선언은 `var`로 시작한다
+  ```dart
+  void main() {
+    var name = 'nico';
+    String place = 'school';
+  }
+  ```
+  - var는 변수형을 예측한다
+  - var 대신 직접 자료형을 제시할 수도 있다
+- 변수값을 수정할 때는 이전 값의 자료형을 유지해야 한다
+  ```dart
+  void main() {
+    var name = 'nico';
+    name = 'noru';
+  }
+  ```

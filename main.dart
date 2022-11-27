@@ -1,3 +1,6 @@
 void main() {
-    print("hello world");
+  var name = 'nico';
+  name = 'noru';
+  String place = 'school';
+  place = 'home';
 }
